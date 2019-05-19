@@ -2,3 +2,29 @@ table th, td {
     border: 1px black solid;
     border-collapse: collapse;
 }
+
+img {
+    width: 50%;
+}
+
+video {
+    height: 35%;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+}
+
+@media (min-width:500px) {
+    p {
+        background-color: blue;
+        color: yellow;
+    }
+}
+
+@media (max-width:499px) {
+    p {
+        background-color: yellow;
+        color: blue;
+    }
+}
