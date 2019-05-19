@@ -1,30 +1,30 @@
 table, th, td {
-    border: 1px black solid;
-    border-collapse: collapse;
-}
+  background-color: pink;
+  color: brown;
+  font-size: 12px; }
+
+table, th, td {
+  border: 1px black solid;
+  border-collapse: collapse; }
 
 img {
-    width: 50%;
-}
+  width: 50%; }
 
 video {
-    height: 35%;
-}
+  height: 35%; }
 
 h1 {
-    font-family: "Arial", sans-serif;
-}
+  font-family: "Arial", sans-serif; }
 
-@media (min-width:500px) {
-    p {
-        background-color: blue;
-        color: yellow;
-    }
-}
+@media (min-width: 500px) {
+  p {
+    background-color: blue;
+    color: yellow; } }
+@media (max-width: 499px) {
+  p {
+    background-color: yellow;
+    color: blue; } }
+div span {
+  background-color: red; }
 
-@media (max-width:499px) {
-    p {
-        background-color: yellow;
-        color: blue;
-    }
-}
+/*# sourceMappingURL=style.css.map */

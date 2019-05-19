@@ -1,0 +1,47 @@
+$color1: blue;
+$color2: yellow;
+$color3: red;
+
+%natural {
+    background-color: pink;
+    color: brown;
+    font-size: 12px;
+}
+
+table, th, td {
+    @extend %natural;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+img {
+    width: 50%;
+}
+
+video {
+    height: 35%;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+}
+
+@media (min-width:500px) {
+    p {
+        background-color: $color1;
+        color: $color2;
+    }
+}
+
+@media (max-width:499px) {
+    p {
+        background-color: $color2;
+        color: $color1;
+    }
+}
+
+div {
+    span {
+        background-color: $color3;
+    }
+}
